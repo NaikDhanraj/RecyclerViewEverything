@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btnSimplerecyclerview).setOnClickListener(this);
         findViewById(R.id.btnSwipableRv).setOnClickListener(this);
         findViewById(R.id.btnMultipleRV).setOnClickListener(this);
+        findViewById(R.id.btnInfiniteRV).setOnClickListener(this);
     }
 
     @Override
@@ -44,6 +45,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnMultipleRV:
                 Intent intent2 = new Intent(context,MultipleLayoutRecyclerView.class);
                 startActivity(intent2);
+                break;
+
+            case R.id.btnInfiniteRV:
+                Intent intent3= new Intent(context,InfiniteRvActivity.class);
+                startActivity(intent3);
                 break;
         }
 

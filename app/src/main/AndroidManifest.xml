@@ -27,6 +27,7 @@
         <activity android:name=".activity.SwipeableRecyclerViewActivity"/>
 
         <activity android:name=".activity.MultipleLayoutRecyclerView"/>
+        <activity android:name=".activity.InfiniteRvActivity"/>
     </application>
 
 </manifest>

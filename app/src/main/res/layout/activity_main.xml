@@ -30,5 +30,13 @@
         android:layout_margin="6dp"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInfiniteRV"
+        android:text="Infinite Scroll Recyclerview"
+        android:layout_margin="6dp"
+        />
+
 
 </LinearLayout>
